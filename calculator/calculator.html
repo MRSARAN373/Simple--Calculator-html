@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="calculator.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Simple Calculator</title>
+</head>
+<body>
+	<h2>Simple Calculator</h2>
+	<div class="main">
+		<form name="frm1">
+			<input type="text" id="cal" value=" " name="result"><br><br>
+			
+			<input type="button" name="bt1" id="bt1" value="1" class="button"  onclick="frm1.result.value=frm1.result.value+ '1' ">
+			<input type="button" name="bt1"  id="bt1" value="2" onclick="frm1.result.value=frm1.result.value+'2' ">
+			<input type="button" name="bt1" id="bt1" value="3" onclick="frm1.result.value=frm1.result.value+'3' ">
+             <input type="button" name="bt1"  id="bt1" value="+" onclick="frm1.result.value=frm1.result.value+'+' "> 
+
+             <br><br>
+            
+			<input type="button" name="bt1" value="4"  id="bt2" onclick="frm1.result.value=frm1.result.value+ '4' "> 
+			<input type="button" name="bt1" value="5" id="bt2" onclick="frm1.result.value=frm1.result.value+'5' ">
+			<input type="button" name="bt1" value="6"  id="bt2" onclick="frm1.result.value=frm1.result.value+'6' ">
+             <input type="button" name="bt1" value="-" id="bt2" onclick="frm1.result.value=frm1.result.value+'-' ">
+
+             <br><br>
+			<input type="button" name="bt1" value="7"  id="bt3" onclick="frm1.result.value=frm1.result.value+ '7' ">
+			<input type="button" name="bt1" value="8" id="bt3" onclick="frm1.result.value=frm1.result.value+'8' ">
+			<input type="button"  id="bt3"  name="bt3"  
+			 value="9" onclick="frm1.result.value=frm1.result.value+'9' ">
+			<input type="button" name="bt1" id="bt3" value="×" onclick="frm1.result.value=frm1.result.value+'*' ">
+<br><br>
+<input type="button" name="bt1" value="0"  id="bt4" onclick="frm1.result.value=frm1.result.value+'0'">
+            <input type="button" name="bt1" id="bt4" value="/" onclick="frm1.result.value=frm1.result.value+'/' ">
+             <input type="button" name="bt1" id="bt4" value="^" onclick="frm1.result.value=frm1.result.value+*frm1.result.value ">
+<input type="button" name="bt12" value="=" id="bt4" onclick="frm1.result.value=eval(frm1.result.value)">
+
+             <br><br>
+          <input type="button" name="bt12" id="bt12" value="Clear" onclick="frm1.result.value=''">
+
+
+
+		</form>
+	</div>
+</body>
+</html>

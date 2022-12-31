@@ -1,0 +1,88 @@
+body{
+	
+	background-image:url(back2.jpg);
+	background-repeat:none;
+	background-size: cover;
+}
+
+form{
+	position: absolute;
+	transform:translate(-50%,-50%);
+	bottom:-270px;
+	right:300px;
+	background-repeat: none;
+	background-size: cover;
+	background-image:url(frame.jpeg);
+	height:550px;
+
+	width:350px;
+	padding:20px;
+}
+form.frm1{
+	height:550px;
+
+	width:350px;
+	
+}
+h2{
+	text-shadow: 1px 2px white;
+	margin: 0;
+	text-align:center;
+}
+#cal{
+	height:130px;
+	font-weight:bold;
+font-size: 20px;
+	width:350px;        	
+	border-radius:20px;
+	background-color:#FFC5CB;
+}
+#bt1{
+	background-color:#FFC5CB;
+	 line-height: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px;
+margin: 10px;
+		border-radius:50%;
+}
+#bt2{
+	background-color:#FFC5CB;
+	 line-height: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px;
+margin: 10px;
+		border-radius:50%;
+}
+#bt3{
+	background-color:#FFC5CB;
+	 line-height: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px;
+margin: 10px;
+		border-radius:50%;
+}#bt4{
+	background-color:#FFC5CB;
+	 line-height: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 20px;
+margin: 10px;
+		border-radius:50%;
+}
+#bt12{
+
+
+	background-color:#FFC5CB;
+	position: absolute;
+	transform:translate(-50%,-50%);
+	bottom:20px;
+	right:100px;
+	width:100px;
+	height: 25px;
+	border:solid black;
+	font-weight: bold;
+
+}
